@@ -30,16 +30,124 @@ if %errorlevel% == 23 goto v
 if %errorlevel% == 24 goto b
 if %errorlevel% == 25 goto n
 if %errorlevel% == 26 goto m
-if %errorlevel% == 27 goto 1
-if %errorlevel% == 28 goto 2
-if %errorlevel% == 29 goto 3
-if %errorlevel% == 30 goto 4
-if %errorlevel% == 31 goto 5
-if %errorlevel% == 32 goto 6
-if %errorlevel% == 33 goto 7
-if %errorlevel% == 34 goto 8
-if %errorlevel% == 35 goto 9
-if %errorlevel% == 36 goto 0
+if %errorlevel% == 27 goto one
+if %errorlevel% == 28 goto two
+if %errorlevel% == 29 goto three
+if %errorlevel% == 30 goto four
+if %errorlevel% == 31 goto five
+if %errorlevel% == 32 goto six
+if %errorlevel% == 33 goto seven
+if %errorlevel% == 34 goto eight
+if %errorlevel% == 35 goto nine
+if %errorlevel% == 36 goto zero
+:q
+set Value=q
+goto print
+:w
+set Value=w
+goto print
+:e
+set Value=e
+goto print
+:r
+set Value=r
+goto print
+:t
+set Value=t
+goto print
+:y
+set Value=y
+goto print
+:u
+set Value=u
+goto print
+:i
+set Value=i
+goto print
+:o
+set Value=o
+goto print
+:p
+set Value=p
+goto print
+:a
+set Value=a
+goto print
+:s
+set Value=s
+goto print
+:d
+set Value=d
+goto print
+:f
+set Value=f
+goto print
+:g
+set Value=g
+goto print
+:h
+set Value=h
+goto print
+:j
+set Value=j
+goto print
+:k
+set Value=k
+goto print
+:l
+set Value=l
+goto print
+:z
+set Value=z
+goto print
+:x
+set Value=x
+goto print
+:c
+set Value=c
+goto print
+:v
+set Value=v
+goto print
+:b
+set Value=b
+goto print
+:n
+set Value=n
+goto print
+:m
+set Value=m
+goto print
+:one
+set Value=1
+goto print
+:two
+set Value=2
+goto print
+:three
+set Value=3
+goto print
+:four
+set Value=4
+goto print
+:five
+set Value=5
+goto print
+:six
+set Value=6
+goto print
+:seven
+set Value=7
+goto print
+:eight
+set Value=8
+goto print
+:nine
+set Value=9
+goto print
+:zero
+set Value=0
+goto print
 :print
 %USERPROFILE%\desktop\test.txt echo %Value%
 goto start
